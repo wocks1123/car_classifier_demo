@@ -1,7 +1,7 @@
 <template>
-  <div>
+  <v-container>
     It is Main
-  </div>
+  </v-container>
 </template>
 
 <script>

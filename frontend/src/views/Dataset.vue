@@ -1,7 +1,7 @@
 <template>
-    <div>
+    <v-container>
         This is Dataset Page...
-    </div>
+    </v-container>
 </template>
 
 <script>

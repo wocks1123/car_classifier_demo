@@ -1,7 +1,7 @@
 <template>
-    <div>
+    <v-container>
         This is Settings Page...
-    </div>
+    </v-container>
 </template>
 
 <script>

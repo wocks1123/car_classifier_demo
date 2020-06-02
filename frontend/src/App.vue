@@ -52,7 +52,7 @@
         </v-list-item>
 
         <v-list-item link
-                     to="settings"
+                     to="login"
         >
           <v-list-item-action>
             <v-icon>settings</v-icon>
@@ -70,10 +70,13 @@
             clipped-left
     >
       <v-app-bar-nav-icon @click.stop="drawer = !drawer" />
-      <v-toolbar-title>Car Classifier</v-toolbar-title>
+      <v-toolbar-title> &#128662; Car Classifier</v-toolbar-title>
     </v-app-bar>
 
-    <v-content>
+    <v-content
+        :grid-list-md="!$vuetify.breakpoint.xs"
+        :class="$vuetify.breakpoint.xs ? '' : ''"
+    >
       <router-view/>
     </v-content>
 
